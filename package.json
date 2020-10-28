@@ -1,0 +1,21 @@
+{
+  "name": "kulki",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "ts-loader": "^8.0.4"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

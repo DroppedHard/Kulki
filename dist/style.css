@@ -1,0 +1,54 @@
+* {
+    margin:0;
+}
+body {
+    background-color: darkgray;
+}
+.tytuł {
+    position:absolute;
+    top:10px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+}
+#start-bt {
+    position: absolute;
+    width:200px;
+    height:60px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    font-size: 2em;
+}
+.info {
+    position:absolute;
+    left:10px;
+    top:0px;
+    background-color: rgb(232, 249, 255);
+    border:5px solid rgb(218, 246, 255);
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.plansza {
+    position:absolute;
+    top:100px;
+    left:50%;
+    transform: translate(-50%,0%);
+    background-color: whitesmoke;
+}
+.row{
+    width:fit-content;
+    height:fit-content;
+    position:relative;
+}
+.box {
+    border:2px solid black;
+    position: absolute;
+    background-color: transparent;
+}
+.kulka {
+    background-color: transparent;
+}
+/* .kulka-info{
+    background-color: transparent;
+} */
